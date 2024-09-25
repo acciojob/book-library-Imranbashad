@@ -4,10 +4,64 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		h1{
+			text-align:center;
+		}
+		p:nth-child(odd){
+			color:#777777;
+		}
+		body{
+			background-color:#f8f8f8;
+		}
+		.book-library{
+			background-color:#ffffff;
+			
+			margin:10px;
+		}
+		.book{
+			text-align:left;
+			width:100%;
+			padding:10px;
+			box-sizing:border-box;
+		}
+		.book img{
+			display:block;
+			margin: 5px auto;
+		}
+		button{
+			width:100%;
+			background:#2ecc71;
+			border-radius:5px;
+			border-style:none;	
+			padding:5px;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1>Book Library</h1>
+	<div class="book-library">
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Spy-in-the-Amber-by-Manohar-Malgonkar.jpg">
+			<p><b>Spy in the Amber</b></p>
+			<p>by Nemesis</p>
+			<button type="submit">Rs. 300</button>
+		</div>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Sacred-Games-by-Vikram-Chandra.jpg">
+			<p><b>Sacred Games</b></p>
+			<p>by Nemesis</p>
+			<button type="submit">Rs. 300</button>
+		</div>
+		<div class="book">
+			<img src="https://www.bookgeeks.in/wp-content/uploads/2018/01/Byomkesh-Bakshi-by-Sharadindu-Bandyopadhyay.jpg">
+			<p><b>Byomkesh Bakshi</b></p>
+			<p>by Nemesis</p>
+			<button type="submit">Rs. 300</button>
+		</div>
+	</div>
     <script type="text/javascript" src="./script.js">
 </script>
 
